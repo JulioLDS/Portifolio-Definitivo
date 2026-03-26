@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JulioLDS</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Background Animado -->
+    <div class="bg-animation">
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="glow-point"></div>
+        <div class="glow-point"></div>
+        <div class="glow-point"></div>
+    </div>
+
+    <!-- Navbar -->
+    <nav id="navbar">
+        <div class="logo">JulioLDS</div>
+        <ul class="nav-links">
+            <li><a href="#home">Início</a></li>
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#showcase">Portfólio</a></li>
+            <li><a href="#contactme">Contato</a></li>
+        </ul>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- Seção 1: Hero -->
+    <section id="home" class="hero">
+        <!-- Background Animado APENAS na Hero -->
+        <div class="bg-animation">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="glow-point"></div>
+            <div class="glow-point"></div>
+            <div class="glow-point"></div>
+        </div>
+
+        <div class="hero-content">
+            <div class="social-links">
+                <a href="https://github.com/JulioLDS" class="social-icon"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/julio-lima-7a296a342/" class="social-icon"><i
+                        class="fab fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/juli0_lds/" class="social-icon"><i class="fab fa-instagram"></i></a>
+            </div>
+            <h1 class="glitch" data-text="JulioLDS">Julio Lima</h1>
+            <h2 class="typing-text">Analista e Desenvolvedor de Sistemas</h2>
+            <div class="hero-buttons">
+                <a href="#" class="btn btn-primary" download>
+                    <i class="fas fa-download"></i> Download CV
+                </a>
+                <a href="#contactme" class="btn btn-secondary">
+                    <i class="fas fa-envelope"></i> Contato
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção 2: Sobre -->
+    <section class="about">
+        <div id="about" class="glass-card about-container">
+            <div class="about-image">
+                <div class="image-wrapper">
+                    <img src="assets/images/fotoProfissional.png" alt="Sua Foto">
+                    <div class="image-glow"></div>
+                </div>
+            </div>
+            <div class="about-text">
+                <h2>Olá, Me Chamo <span class="highlight">Julio Lima</span></h2>
+                <p>Sou Analista e Desenvolvedor de Sistemas com foco em <strong>criar soluções eficientes para problemas
+                        reais</strong>. Acredito que a tecnologia deve ser um meio para resolver desafios, não um fim em
+                    si mesma.</p>
+                <p>Minha abordagem combina análise crítica, desenvolvimento técnico e visão estratégica para entregar
+                    resultados que fazem a diferença. Seja otimizando processos, desenvolvendo sistemas ou integrando
+                    tecnologias, meu objetivo é sempre gerar valor tangível.</p>
+                <p>Estou em constante evolução, aprendendo novas ferramentas e metodologias para enfrentar os desafios
+                    do mundo digital com criatividade e eficiência.</p>
+                <div class="about-stats">
+                    <div class="stat">
+                        <h3>+8</h3>
+                        <p>Projetos</p>
+                    </div>
+                    <div class="stat">
+                        <h3>+20</h3>
+                        <p>Certificados</p>
+                    </div>
+                    <div class="stat">
+                        <h3>+8</h3>
+                        <p>Tecnologias</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção 3: Showcase (Projetos/Certificados/Tecnologias) -->
+    <section class="showcase">
+        <div id="showcase" class="glass-card showcase-container">
+            <h2 class="section-title">Mostruário de Portfólio</h2>
+            <div class="tabs">
+                <button class="tab-btn active" data-tab="projects">
+                    <i class="fas fa-code"></i> Projetos
+                </button>
+                <button class="tab-btn" data-tab="certificates">
+                    <i class="fas fa-certificate"></i> Certificados
+                </button>
+                <button class="tab-btn" data-tab="technologies">
+                    <i class="fas fa-microchip"></i> Tecnologias
+                </button>
+            </div>
+
+            <div class="tab-content">
+                <!-- Projetos -->
+                <div id="projects" class="tab-panel active">
+                    <div class="content-grid" id="projects-container"></div>
+
+                    <div class="pagination" id="projects-pagination" style="display: none;">
+                        <button class="pagination-btn prev" onclick="changePage('projects', -1)">
+                            <i class="fas fa-chevron-left"></i> Anterior
+                        </button>
+                        <div class="pagination-dots" id="projects-dots"></div>
+                        <button class="pagination-btn next" onclick="changePage('projects', 1)">
+                            Próximo <i class="fas fa-chevron-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Certificados -->
+                <div id="certificates" class="tab-panel">
+                    <div class="content-grid" id="certificates-container"></div>
+
+                    <div class="pagination" id="certificates-pagination" style="display: none;">
+                        <button class="pagination-btn prev" onclick="changePage('certificates', -1)">
+                            <i class="fas fa-chevron-left"></i> Anterior
+                        </button>
+                        <div class="pagination-dots" id="certificates-dots"></div>
+                        <button class="pagination-btn next" onclick="changePage('certificates', 1)">
+                            Próximo <i class="fas fa-chevron-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Tecnologias -->
+                <div id="technologies" class="tab-panel">
+                    <div class="tech-grid" id="technologies-container"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção 4: Contato -->
+    <section id="contact" class="contact">
+        <div id="contactme" class="glass-card contact-container">
+            <div class="contact-form">
+                <h2>Envie uma mensagem!</h2>
+                <p>Me conta tua ideia! Estou aqui para te ajudar</p>
+                <!-- Formulário com Formspree -->
+                <form id="contactForm" action="https://formspree.io/f/mykbzzdj" method="POST">
+                    <div class="form-group">
+                        <input type="text" name="name" id="userName" placeholder="Seu nome" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" id="userEmail" placeholder="Seu email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" id="userMessage" placeholder="Sua mensagem" rows="5"
+                            required></textarea>
+                    </div>
+
+                    <!-- Campo oculto para assunto -->
+                    <input type="hidden" name="_subject" value="Novo contato do portfólio!">
+
+                    <button type="submit" class="btn btn-primary" id="submitBtn">
+                        <i class="fas fa-paper-plane"></i> Enviar Mensagem
+                    </button>
+
+                    <!-- Mensagem de status do formulário -->
+                    <p id="formStatus" style="display: none; margin-top: 15px; font-weight: 500;"></p>
+                </form>
+            </div>
+
+            <div class="contact-social">
+                <h2>Conecte-se Comigo</h2>
+                <p>Estou sempre aberto a novas conexões!</p>
+
+                <!-- LinkedIn - Card Grande -->
+                <a href="https://www.linkedin.com/in/julio-lima-7a296a342/" class="social-card-large">
+                    <div class="social-preview">
+                        <i class="fab fa-linkedin" style="color: #0077b5;"></i>
+                        <div class="preview-content">
+                            <h3>LinkedIn</h3>
+                            <p>Vamos conectar</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Grid 2x2 com as outras redes -->
+                <div class="social-grid-small">
+                    <!-- Instagram -->
+                    <a href="https://www.instagram.com/juli0_lds/" class="social-card-small">
+                        <div class="social-preview">
+                            <i class="fab fa-instagram" style="color: #e4405f;"></i>
+                            <div class="preview-content">
+                                <h3>Instagram</h3>
+                                <p>@juli0_lds</p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!-- GitHub -->
+                    <a href="https://github.com/JulioLDS" class="social-card-small">
+                        <div class="social-preview">
+                            <i class="fab fa-github" style="color: #ffffff;"></i>
+                            <div class="preview-content">
+                                <h3>GitHub</h3>
+                                <p>@JulioLDS</p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!-- WhatsApp -->
+                    <a href="https://wa.me/5511969454815?text=Ol%C3%A1%2C%20vi%20seu%20perfil%20no%20github%20e%20gostaria%20de%20saber%20mais%20sobre%20seu%20trabalho"
+                        class="social-card-small">
+                        <div class="social-preview">
+                            <i class="fab fa-whatsapp" style="color: #25d366;"></i>
+                            <div class="preview-content">
+                                <h3>WhatsApp</h3>
+                                <p>Mande uma msg</p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!-- Backloggd -->
+                    <a href="https://backloggd.com/u/JulioLDS/" class="social-card-small">
+                        <div class="social-preview">
+                            <i class="fas fa-gamepad" style="color: #4CAF50;"></i>
+                            <div class="preview-content">
+                                <h3>Backloggd</h3>
+                                <p>@JulioLDS</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Profissional -->
+    <footer class="footer-professional">
+        <div class="footer-container">
+
+            <!-- Main Footer Content -->
+            <div class="footer-main">
+                <div class="footer-brand">
+                    <h4 class="footer-logo">JulioLima</h4>
+                    <p>Analista e Desenvolvedor de Sistemas</p>
+                    <div class="footer-social">
+                        <a href="https://github.com/JulioLDS" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/julio-lima-7a296a342/" class="social-link"><i
+                                class="fab fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/juli0_lds/" class="social-link"><i
+                                class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h5>Explorar</h5>
+                        <ul>
+                            <li><a href="#home">Início</a></li>
+                            <li><a href="#about">Sobre</a></li>
+                            <li><a href="#showcase">Projetos</a></li>
+                            <li><a href="#contact">Contato</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-column">
+                        <h5>Sobre</h5>
+                        <ul>
+                            <li><a href="#about">Minha História</a></li>
+                            <li><a href="#showcase">Certificados</a></li>
+                            <li><a href="#showcase">Habilidades</a></li>
+                            <li><a href="#showcase">Experiência</a></li>
+                        </ul>
+                    </div>
+
+
+
+                    <div class="footer-column">
+                        <h5>Contato</h5>
+                        <ul>
+                            <li><a href="mailto:juliolima1401@email.com">Email</a></li>
+                            <li><a href="https://www.linkedin.com/in/julio-lima-7a296a342/">LinkedIn</a></li>
+                            <li><a href="https://github.com/JulioLDS">GitHub</a></li>
+                            <li><a
+                                    href="https://wa.me/5511969454815?text=Ol%C3%A1%2C%20vi%20seu%20perfil%20no%20github%20e%20gostaria%20de%20saber%20mais%20sobre%20seu%20trabalho">WhatsApp</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Partners Section -->
+            <div class="footer-partners">
+                <span class="partners-label">Tecnologias que utilizo:</span>
+                <div class="partners-list">
+                    <span class="partner-item">HTML5</span>
+                    <span class="partner-item">CSS3</span>
+                    <span class="partner-item">JavaScript</span>
+                    <span class="partner-item">TypeScript</span>
+                    <span class="partner-item">React</span>
+                    <span class="partner-item">Node.js</span>
+                </div>
+            </div>
+
+            <!-- Bottom Bar -->
+            <div class="footer-bottom">
+                <div class="footer-bottom-left">
+                    <p>&copy; 2026 JulioLima. Todos os direitos reservados.</p>
+                </div>
+                <div class="footer-bottom-right">
+                    <a href="termos.html">Termos de Uso</a>
+                    <a href="privacidade.html">Privacidade</a>
+                    <a href="cookies.html">Cookies</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

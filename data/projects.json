@@ -1,0 +1,111 @@
+[
+    {
+        "id": 9,
+        "title": "Primeiro Portfólio",
+        "description": "Meu primeiro portfólio, desenvolvido com HTML, CSS e JavaScript.",
+        "technologies": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "image": "assets/images/projetos/projeto9.png",
+        "link": "https://juliolds.github.io/Portifolio/"
+    },
+    {
+        "id": 8,
+        "title": "Agente de IA para Readmes Automáticos",
+        "description": "Agente de inteligência artificial para gerar readmes automáticos para projetos no GitHub.",
+        "technologies": [
+            "Python",
+            "Playwright",
+            "OpenAI",
+            "GitHub API"
+        ],
+        "image": "assets/images/projetos/projeto8.png",
+        "link": "https://github.com/JulioLDS/Auto_Readme_IA"
+    },
+    {
+        "id": 7,
+        "title": "To do List",
+        "description": "Aplicação de lista de tarefas (To Do List) desenvolvida com JavaScript, HTML e CSS, permitindo aos usuários adicionar, marcar como concluídas e remover tarefas de forma simples e intuitiva.",
+        "technologies": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "image": "assets/images/projetos/projeto7.png",
+        "link": "https://juliolds.github.io/Lista-de-Tarefas/ToDoList.html"
+    },
+    {
+        "id": 6,
+        "title": "Calculadora JS",
+        "description": "Calculadora simples desenvolvida com JavaScript, HTML e CSS.",
+        "technologies": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "image": "assets/images/projetos/projeto6.png",
+        "link": "https://juliolds.github.io/Calculadora-JS/index.html"
+    },
+    {
+        "id": 5,
+        "title": "Contador de Truco",
+        "description": "Contador de pontos para o jogo de truco, desenvolvido com Flutter e Dart, permitindo fácil controle dos pontos durante as partidas.",
+        "technologies": [
+            "Flutter",
+            "Dart"
+        ],
+        "image": "assets/images/projetos/projeto5.png",
+        "link": "https://github.com/JulioLDS/Contador_Truco_Flutter"
+    },
+    {
+        "id": 4,
+        "title": "Cafeteria LandPage",
+        "description": "Uma LandPage simples e moderna para uma cafeteria com integração com JavaScript para exibir o endereço usando Google Maps.",
+        "technologies": [
+            "React",
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "image": "assets/images/projetos/projeto4.png",
+        "link": "https://juliolds.github.io/Pagina-Cafeteria/"
+    },
+    {
+        "id": 3,
+        "title": "API  com Node.js e MongoDB",
+        "description": "API para gerenciamento de usuários, utilizando Node.js, Express e MongoDB.",
+        "technologies": [
+            "Node.js",
+            "Express",
+            "MongoDB"
+        ],
+        "image": "assets/images/projetos/projeto3.png",
+        "link": "https://github.com/JulioLDS/API_MongoDB?tab=readme-ov-file"
+    },
+    {
+        "id": 2,
+        "title": "Página de Login e Cadastro",
+        "description": "Página apenas demonstrativa de Login e Cadastro de usuários com design intuitivo.",
+        "technologies": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "image": "assets/images/projetos/projeto2.png",
+        "link": "https://juliolds.github.io/Login-e-Cadastro/login.html"
+    },
+    {
+        "id": 1,
+        "title": "Jogo da Velha",
+        "description": "Jogo da velha implementado em JavaScript com interface web.",
+        "technologies": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "image": "assets/images/projetos/projeto1.png",
+        "link": "https://juliolds.github.io/Jogo-da-Velha/JogoDaVelha.html"
+    }
+]

@@ -1,0 +1,186 @@
+[
+    {
+        "id": 23,
+        "title": "Workshop - Conhecendo o Protocolo de Comunicação ESPNOW",
+        "issuer": "Robótica Paula Souza",
+        "date": "Concluído em Fev 2025",
+        "image": "assets/images/certificados/cert23.png",
+        "credential": "#"
+    },
+    {
+        "id": 22,
+        "title": "MODELAGEM DE DADOS,",
+        "issuer": "Bradesco",
+        "date": "Concluído em Mar 2025",
+        "image": "assets/images/certificados/cert22.png",
+        "credential": "#"
+    },
+    {
+        "id": 21,
+        "title": "Eletrônica: conceitos e componentes básicos",
+        "issuer": "CodeIOT",
+        "date": "Concluído em Mar 2025",
+        "image": "assets/images/certificados/cert21.png",
+        "credential": "#"
+    },
+    {
+        "id": 20,
+        "title": "Aprendendo a Programar",
+        "issuer": "CodeIOT",
+        "date": "Concluído em Fev 2025",
+        "image": "assets/images/certificados/cert20.png",
+        "credential": "#"
+    },
+    {
+        "id": 19,
+        "title": "Introdução à Internet das Coisas",
+        "issuer": "CodeIOT",
+        "date": "Concluído em Fev 2025",
+        "image": "assets/images/certificados/cert19.png",
+        "credential": "#"
+    },
+    {
+        "id": 18,
+        "title": "LIDERANÇA: COMO DESENVOLVER TIMES DE ALTA PERFORMANCE,",
+        "issuer": "SEBRAE",
+        "date": "Concluído em Maio 2025",
+        "image": "assets/images/certificados/cert18.png",
+        "credential": "#"
+    },
+    {
+        "id": 17,
+        "title": "Introdução a NoSQL com MongoDB,",
+        "issuer": "IFES",
+        "date": "Concluído em Nov 2025",
+        "image": "assets/images/certificados/cert17.png",
+        "credential": "#"
+    },
+    {
+        "id": 16,
+        "title": "Gestão de Pessoas",
+        "issuer": "CPS",
+        "date": "Concluído em Out 2025",
+        "image": "assets/images/certificados/cert16.png",
+        "credential": "#"
+    },
+    {
+        "id": 15,
+        "title": "Gestão de Tempo",
+        "issuer": "CPS",
+        "date": "Concluído em Fev 2026",
+        "image": "assets/images/certificados/cert15.png",
+        "credential": "#"
+    },
+    {
+        "id": 14,
+        "title": "Gestão de Conflitos e Negociação",
+        "issuer": "ENAP",
+        "date": "Concluído em Fev 2025",
+        "image": "assets/images/certificados/cert14.png",
+        "credential": "#"
+    },
+    {
+        "id": 13,
+        "title": "CRIE UM SITE SIMPLES USANDO HTML, CSS E JAVASCRIPT,",
+        "issuer": "Bradesco",
+        "date": "Concluído em Fev 2025",
+        "image": "assets/images/certificados/cert13.png",
+        "credential": "#"
+    },
+    {
+        "id": 12,
+        "title": "LINGUAGEM DE PROGRAMAÇÃO PYTHON - BÁSICO,",
+        "issuer": "Bradesco",
+        "date": "Concluído em Fev 2025",
+        "image": "assets/images/certificados/cert12.png",
+        "credential": "#"
+    },
+    {
+        "id": 11,
+        "title": "INTRODUÇÃO À PROGRAMAÇÃO ORIENTADA A OBJETOS",
+        "issuer": "Bradesco",
+        "date": "Concluído em Fev 2025",
+        "image": "assets/images/certificados/cert11.png",
+        "credential": "#"
+    },
+    {
+        "id": 10,
+        "title": "DESENVOLVIMENTO ORIENTADO A OBJETOS UTILIZANDO A LINGUAGEM PYTHON,",
+        "issuer": "Bradesco",
+        "date": "Concluído em Fev 2025",
+        "image": "assets/images/certificados/cert10.png",
+        "credential": "#"
+    },
+    {
+        "id": 9,
+        "title": "Introdução à Gestão de Projetos",
+        "issuer": "Bradesco",
+        "date": "Concluído em Abr 2024",
+        "image": "assets/images/certificados/cert9.png",
+        "credential": "#"
+    },
+    {
+        "id": 8,
+        "title": "Introdução ao Github",
+        "issuer": "Microsoft",
+        "date": "Concluído em Fev 2025",
+        "image": "assets/images/certificados/cert8.png",
+        "credential": "#"
+    },
+    {
+        "id": 7,
+        "title": "COMO DEVO AGIR PARA LIDERAR E PROMOVER A CRIATIVIDADE E AINOVAÇÃO?,",
+        "issuer": "SEBRAE",
+        "date": "Concluído em Maio 2025",
+        "image": "assets/images/certificados/cert7.png",
+        "credential": "#"
+    },
+    {
+        "id": 6,
+        "title": "Fundamentos de Linux",
+        "issuer": "Cisco Networking Academy.",
+        "date": "Concluído em Mar 2025",
+        "image": "assets/images/certificados/cert6.png",
+        "credential": "#"
+    },
+    {
+        "id": 5,
+        "title": "Big Data Básico",
+        "issuer": "IFECTMG",
+        "date": "Concluído em Nov 2025",
+        "image": "assets/images/certificados/cert5.png",
+        "credential": "#"
+    },
+    {
+        "id": 4,
+        "title": "Banco de Dados",
+        "issuer": "Mundi",
+        "date": "Concluído em Out 2025",
+        "image": "assets/images/certificados/cert4.png",
+        "credential": "#"
+    },
+    {
+        "id": 3,
+        "title": "Banco de Dados: Oracle PL/SQL",
+        "issuer": "Oracle",
+        "date": "Concluído em Out 2025",
+        "image": "assets/images/certificados/cert3.png",
+        "credential": "#"
+    },
+    {
+        "id": 2,
+        "title": "Artificial Intelligence Fundamentals",
+        "issuer": "IBM",
+        "date": "Concluído em Jun 2025",
+        "image": "assets/images/certificados/cert2.png",
+        "credential": "#"
+    },
+    {
+        "id": 1,
+        "title": "Introdução ao Git e GitHub",
+        "issuer": "FGV",
+        "date": "Concluído em Mar 2025",
+        "image": "assets/images/certificados/cert1.png",
+        "credential": "#"
+    }
+]

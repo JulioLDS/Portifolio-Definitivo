@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "name": "HTML5",
+        "icon": "devicon-html5-plain"
+    },
+    {
+        "id": 2,
+        "name": "CSS3",
+        "icon": "devicon-css3-plain"
+    },
+    {
+        "id": 3,
+        "name": "JavaScript",
+        "icon": "devicon-javascript-plain"
+    },
+    {
+        "id": 4,
+        "name": "Java",
+        "icon": "devicon-java-plain"
+    },
+    {
+        "id": 5,
+        "name": "Python",
+        "icon": "devicon-python-plain"
+    },
+    {
+        "id": 6,
+        "name": "Flutter",
+        "icon": "devicon-flutter-plain"
+    },
+    {
+        "id": 7,
+        "name": "Figma",
+        "icon": "devicon-figma-plain"
+    },
+    {
+        "id": 8,
+        "name": "Git",
+        "icon": "devicon-git-plain"
+    },
+    {
+        "id": 9,
+        "name": "VSCode",
+        "icon": "devicon-vscode-plain"
+    }
+]
