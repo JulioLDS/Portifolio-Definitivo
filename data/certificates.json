@@ -1,5 +1,29 @@
 [
     {
+        "id": 26,
+        "title": "Descrevendo tipos de serviço de nuvem",
+        "issuer": "Microsoft",
+        "date": "Concluído em Mar 2026",
+        "image": "assets/images/certificados/cert26.png",
+        "credential": "#"
+    },
+    {
+        "id": 25,
+        "title": "Descrevendo os benefícios do uso de serviços de nuvem",
+        "issuer": "Microsoft",
+        "date": "Concluído em Mar 2026",
+        "image": "assets/images/certificados/cert25.png",
+        "credential": "#"
+    },
+    {
+        "id": 24,
+        "title": "Descrevendo a Computação em Nuvem",
+        "issuer": "Microsoft",
+        "date": "Concluído em Mar 2026",
+        "image": "assets/images/certificados/cert24.png",
+        "credential": "#"
+    },
+    {
         "id": 23,
         "title": "Workshop - Conhecendo o Protocolo de Comunicação ESPNOW",
         "issuer": "Robótica Paula Souza",
